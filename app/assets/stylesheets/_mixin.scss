@@ -1,0 +1,10 @@
+@mixin message($fSize, $color) {
+  font-size: $fSize;
+  color: $color;
+}
+
+@mixin header ($hHeight: 100px, $hPadding: 0 20px){
+  height: $hHeight;
+  padding: $hPadding;
+  display: flex;
+}
