@@ -1,10 +1,18 @@
-@mixin message($fSize, $color) {
-  font-size: $fSize;
-  color: $color;
+@mixin flexbox {
+  display:-webkit-box; // old
+  display:-moz-box; // old
+  display:-ms-flexbox; // ie
+  display:-webkit-flex; // new
+  display:flex; // new
 }
 
-@mixin header ($hHeight: 100px, $hPadding: 0 20px){
-  height: $hHeight;
-  padding: $hPadding;
-  display: flex;
-}
+// @mixin message($fSize, $color) {
+//   font-size: $fSize;
+//   color: $color;
+// }
+
+// @mixin header ($hHeight: 100px, $hPadding: 0 20px){
+//   height: $hHeight;
+//   padding: $hPadding;
+//   display: flex;
+// }
