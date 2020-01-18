@@ -4,6 +4,7 @@
   display: flex;
   flex-flow: column;
   min-height: 100vh;
+  height: 700px;
   .header {
     box-sizing: border-box;
     height: 100px;
@@ -47,8 +48,9 @@
     background-color: #FAFAFA;
     box-sizing: border-box;
     padding: 46px 40px 0;
-    height: calc(100% - 100px - 90px);
+    height: calc(100vh - 190px);
     flex: 1;
+    overflow: scroll;
     .message {
       .upper-message {
         display: flex;
